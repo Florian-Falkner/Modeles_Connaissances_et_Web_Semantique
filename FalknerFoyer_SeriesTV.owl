@@ -1,0 +1,4618 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.SeriesTV.com/ontologies/FalknerFoyer_SeriesTV.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.SeriesTV.com/ontologies/FalknerFoyer_SeriesTV.owl">
+    <Prefix name="" IRI="http://www.SeriesTV.com/ontologies/FalknerFoyer_SeriesTV.owl"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>Ceci est une ontologie pour les séries télévisées créée par FALKNER Florian &amp; FOYER Matthias</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://purl.org/dc/terms/Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/CreativeWork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Acteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActeurPolicier"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActeurSF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActeurThrillerPolitique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Democrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Episode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Histoire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OeuvreLitteraire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OeuvreTelevisuelle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PartiPolitique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personnage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonnageInspireLitterature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonnageInvite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonnagePrincipal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonnageRecurrent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PersonnageTousTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Producteur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProducteurProlifique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Realisateur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Republicain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Saison"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scenariste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SerieAnglaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SerieNonAnglaise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeriePoliciere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SerieSF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SerieThrillerPolitique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aActeur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aAdaptation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aInterprete"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aInvite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aMere"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aOrigine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aPersonnage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aPrincipal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aProducteur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aRealisateur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aRecurrent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aScenariste"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estActeur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estAdaptation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estInspirationOeuvre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estInterprete"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estInvite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estMere"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estOrigine"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estPersonnage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estPrincipal"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estProducteur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estRealisateur"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estRecurrent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#estScenariste"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#appartenance"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Scandal_in_Belgravia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A_Study_in_Pink"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andrew_Davies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beau_Willimon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bruce_Willis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chris_Chibnall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Christopher_Eccleston"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Craig_Sweeny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#David_Chambers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#David_Fincher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#David_Tennant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Disjointed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dominique_McElligott"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Eric_Roth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Etats-Unis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Euros_Lyn"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#His_Last_Vow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Foley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jason_Tracey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jodie_Whittaker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joel_Schumacher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#John_Wayne"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Jonny_Lee_Miller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joël_Kinnaman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Julie_Gardner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#La_Méthode_Kominsky"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Le_dernier_probleme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Le_signe_des_quatres"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mark_Gatiss"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mark_Hagerman"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Matt_Smith"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Michael_Cuesta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Michael_Dobbs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mike_and_Molly"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paul_McGuigan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Peter_Capaldi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phil_Collinson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Policier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Robert_Doherty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Robin_Wright"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Royaume-Uni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Russell_T_Davies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison10_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison11_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison12_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison1_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison1_Elementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison1_Sherlock_Holmes_1984"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison2_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison2_Elementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison2_Sherlock_Holmes_1984"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison3_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison3_Elementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison3_Sherlock_Holmes_1984"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison4_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison4_Elementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison4_Sherlock_Holmes_1984"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison5_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison5_Elementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison6_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison6_Elementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison7_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison7_Elementary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison8_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Saison9_DoctorWho"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Santiago_Quinones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sarah_Treem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Science-Fiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sherlock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sir_Arthur_Conan_Doyle_Oeuvres"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Steven_Moffat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sue_Vertue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Big_Bang_Theory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Blind_Banker"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Empty_Hearse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Final_Problem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Final_Problem_1984"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Great_Game"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Hounds_of_Baskerville"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Lying_Detective"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Reichenbach_Fall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Sign_of_Four"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Sign_of_Three"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#The_Six_Thatchers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thriller_Politique"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Two_Families"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Two_and_a_Half_Men"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Will_Conway"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Young_Sheldon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nathan&apos;s_Choice"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.org/dc/terms/Agent"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://schema.org/CreativeWork"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://schema.org/Person"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ActeurPolicier"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Acteur"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#estActeur"/>
+                <Class IRI="#SeriePoliciere"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ActeurSF"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Acteur"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#estActeur"/>
+                <Class IRI="#SerieSF"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ActeurThrillerPolitique"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Acteur"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#estActeur"/>
+                <Class IRI="#SerieThrillerPolitique"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Democrate"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PartiPolitique"/>
+            <DataHasValue>
+                <DataProperty IRI="#appartenance"/>
+                <Literal>Democrate</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PersonnageInspireLitterature"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Personnage"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="#aInspirationOeuvre"/>
+                <Class IRI="#OeuvreLitteraire"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PersonnageInvite"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Personnage"/>
+            <DataHasValue>
+                <DataProperty IRI="#type"/>
+                <Literal>Invite</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PersonnagePrincipal"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Personnage"/>
+            <DataHasValue>
+                <DataProperty IRI="#type"/>
+                <Literal>Principal</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PersonnageRecurrent"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Personnage"/>
+            <DataHasValue>
+                <DataProperty IRI="#type"/>
+                <Literal>Recurrent</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#PersonnageTousTypes"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Personnage"/>
+            <DataHasValue>
+                <DataProperty IRI="#type"/>
+                <Literal>Invite</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#type"/>
+                <Literal>Principal</Literal>
+            </DataHasValue>
+            <DataHasValue>
+                <DataProperty IRI="#type"/>
+                <Literal>Recurrent</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ProducteurProlifique"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Producteur"/>
+            <ObjectMinCardinality cardinality="8">
+                <ObjectProperty IRI="#estProducteur"/>
+                <Class IRI="#Serie"/>
+            </ObjectMinCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Republicain"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#PartiPolitique"/>
+            <DataHasValue>
+                <DataProperty IRI="#appartenance"/>
+                <Literal>Republicain</Literal>
+            </DataHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SerieAnglaise"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Serie"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#aOrigine"/>
+                <NamedIndividual IRI="#Royaume-Uni"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SerieNonAnglaise"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Serie"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#aOrigine"/>
+                <ObjectOneOf>
+                    <NamedIndividual IRI="#Etats-Unis"/>
+                </ObjectOneOf>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SeriePoliciere"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Serie"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#aGenre"/>
+                <NamedIndividual IRI="#Policier"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SerieSF"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Serie"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#aGenre"/>
+                <NamedIndividual IRI="#Science-Fiction"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#SerieThrillerPolitique"/>
+        <ObjectIntersectionOf>
+            <Class IRI="#Serie"/>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#aGenre"/>
+                <NamedIndividual IRI="#Thriller_Politique"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Acteur"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acteur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estActeur"/>
+            <Class IRI="#Serie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Acteur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estInterprete"/>
+            <Class IRI="#Personnage"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Episode"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Episode"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#aInspirationOeuvre"/>
+            <Class IRI="#OeuvreLitteraire"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Genre"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Histoire"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OeuvreLitteraire"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OeuvreLitteraire"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#aGenre"/>
+            <Class IRI="#Genre"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OeuvreTelevisuelle"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OeuvreTelevisuelle"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#aGenre"/>
+            <Class IRI="#Genre"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PartiPolitique"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pays"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aAdaptation"/>
+            <Class IRI="#Histoire"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estInvite"/>
+            <Class IRI="#Saison"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estPersonnage"/>
+            <Class IRI="#Episode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estPersonnage"/>
+            <Class IRI="#Saison"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estPersonnage"/>
+            <Class IRI="#Serie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estPrincipal"/>
+            <Class IRI="#Saison"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estRecurrent"/>
+            <Class IRI="#Saison"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Personnage"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#aInspirationOeuvre"/>
+            <Class IRI="#OeuvreLitteraire"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producteur"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Producteur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estProducteur"/>
+            <Class IRI="#Serie"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Realisateur"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saison"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Saison"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estMere"/>
+            <Class IRI="#Episode"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scenariste"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aActeur"/>
+            <Class IRI="#Acteur"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aAdaptation"/>
+            <Class IRI="#Histoire"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aOrigine"/>
+            <Class IRI="#Pays"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aProducteur"/>
+            <Class IRI="#Producteur"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aRealisateur"/>
+            <Class IRI="#Realisateur"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#aScenariste"/>
+            <Class IRI="#Scenariste"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#estMere"/>
+            <Class IRI="#Saison"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#aGenre"/>
+            <Class IRI="#Genre"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serie"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#aInspirationOeuvre"/>
+            <Class IRI="#OeuvreLitteraire"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Group"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Agent"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Democrate"/>
+        <Class IRI="#Republicain"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Genre"/>
+        <Class IRI="#Pays"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Document"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://xmlns.com/foaf/0.1/Person"/>
+        <Class IRI="http://xmlns.com/foaf/0.1/Project"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#A_Scandal_in_Belgravia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#A_Study_in_Pink"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Andrew_Davies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scenariste"/>
+        <NamedIndividual IRI="#Beau_Willimon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Bruce_Willis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Chris_Chibnall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Christopher_Eccleston"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scenariste"/>
+        <NamedIndividual IRI="#Craig_Sweeny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#David_Chambers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#David_Fincher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#David_Tennant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Disjointed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Dominique_McElligott"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Elementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Eric_Roth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pays"/>
+        <NamedIndividual IRI="#Etats-Unis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Realisateur"/>
+        <NamedIndividual IRI="#Euros_Lyn"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#His_Last_Vow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Realisateur"/>
+        <NamedIndividual IRI="#James_Foley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Realisateur"/>
+        <NamedIndividual IRI="#Jason_Tracey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Jodie_Whittaker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Realisateur"/>
+        <NamedIndividual IRI="#Joel_Schumacher"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#John_Wayne"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Jonny_Lee_Miller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Joël_Kinnaman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Julie_Gardner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#La_Méthode_Kominsky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OeuvreLitteraire"/>
+        <NamedIndividual IRI="#Le_dernier_probleme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OeuvreLitteraire"/>
+        <NamedIndividual IRI="#Le_signe_des_quatres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scenariste"/>
+        <NamedIndividual IRI="#Mark_Gatiss"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Mark_Hagerman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Matt_Smith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Realisateur"/>
+        <NamedIndividual IRI="#Michael_Cuesta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Michael_Dobbs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Mike_and_Molly"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Mom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Realisateur"/>
+        <NamedIndividual IRI="#Paul_McGuigan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Peter_Capaldi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Phil_Collinson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Policier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scenariste"/>
+        <NamedIndividual IRI="#Robert_Doherty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Acteur"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pays"/>
+        <NamedIndividual IRI="#Royaume-Uni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Russell_T_Davies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison10_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison11_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison12_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison1_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison1_Elementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison1_Sherlock_Holmes_1984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison2_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison2_Elementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison2_Sherlock_Holmes_1984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison3_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison3_Elementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison3_Sherlock_Holmes_1984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison4_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison4_Elementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison4_Sherlock_Holmes_1984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison5_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison5_Elementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison6_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison6_Elementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison7_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison7_Elementary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison8_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Saison"/>
+        <NamedIndividual IRI="#Saison9_DoctorWho"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Santiago_Quinones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scenariste"/>
+        <NamedIndividual IRI="#Sarah_Treem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Science-Fiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Sherlock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OeuvreLitteraire"/>
+        <NamedIndividual IRI="#Sir_Arthur_Conan_Doyle_Oeuvres"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Steven_Moffat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Scenariste"/>
+        <NamedIndividual IRI="#Steven_Moffat"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Producteur"/>
+        <NamedIndividual IRI="#Sue_Vertue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#The_Big_Bang_Theory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Blind_Banker"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Empty_Hearse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Final_Problem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Final_Problem_1984"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Great_Game"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Hounds_of_Baskerville"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Lying_Detective"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Reichenbach_Fall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Sign_of_Four"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Sign_of_Three"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Episode"/>
+        <NamedIndividual IRI="#The_Six_Thatchers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Genre"/>
+        <NamedIndividual IRI="#Thriller_Politique"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Two_Families"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Two_and_a_Half_Men"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Personnage"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Young_Sheldon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Serie"/>
+        <NamedIndividual IRI="#Nathan&apos;s_Choice"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Saison10_DoctorWho"/>
+        <NamedIndividual IRI="#Saison8_DoctorWho"/>
+        <NamedIndividual IRI="#Saison9_DoctorWho"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Saison11_DoctorWho"/>
+        <NamedIndividual IRI="#Saison12_DoctorWho"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Saison1_Elementary"/>
+        <NamedIndividual IRI="#Saison2_Elementary"/>
+        <NamedIndividual IRI="#Saison3_Elementary"/>
+        <NamedIndividual IRI="#Saison4_Elementary"/>
+        <NamedIndividual IRI="#Saison5_Elementary"/>
+        <NamedIndividual IRI="#Saison6_Elementary"/>
+        <NamedIndividual IRI="#Saison7_Elementary"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Saison5_DoctorWho"/>
+        <NamedIndividual IRI="#Saison6_DoctorWho"/>
+        <NamedIndividual IRI="#Saison7_DoctorWho"/>
+    </SameIndividual>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Disjointed"/>
+        <NamedIndividual IRI="#La_Méthode_Kominsky"/>
+        <NamedIndividual IRI="#Mike_and_Molly"/>
+        <NamedIndividual IRI="#Mom"/>
+        <NamedIndividual IRI="#The_Big_Bang_Theory"/>
+        <NamedIndividual IRI="#Two_Families"/>
+        <NamedIndividual IRI="#Two_and_a_Half_Men"/>
+        <NamedIndividual IRI="#Young_Sheldon"/>
+        <NamedIndividual IRI="#Nathan&apos;s_Choice"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Andrew_Davies"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+        <NamedIndividual IRI="#Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estRecurrent"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estRecurrent"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chris_Chibnall"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Christopher_Eccleston"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Christopher_Eccleston"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#Disjointed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#La_Méthode_Kominsky"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#Mike_and_Molly"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#Mom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#The_Big_Bang_Theory"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#Two_Families"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#Two_and_a_Half_Men"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#Young_Sheldon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+        <NamedIndividual IRI="#Nathan&apos;s_Choice"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#David_Chambers"/>
+        <NamedIndividual IRI="#Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#David_Fincher"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#David_Tennant"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#David_Tennant"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Disjointed"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison10_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison11_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison12_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison1_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison2_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison3_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison4_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison5_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison6_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison7_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison8_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <NamedIndividual IRI="#Saison9_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aGenre"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Science-Fiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aOrigine"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Royaume-Uni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Chris_Chibnall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Julie_Gardner"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Phil_Collinson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Russell_T_Davies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Steven_Moffat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison10_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison11_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison12_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison1_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison2_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison3_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison4_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison5_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison6_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison7_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison8_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <NamedIndividual IRI="#Saison9_DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Dominique_McElligott"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Dominique_McElligott"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aGenre"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Policier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aOrigine"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Etats-Unis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#David_Chambers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Mark_Hagerman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Santiago_Quinones"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aRealisateur"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Jason_Tracey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aRealisateur"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Michael_Cuesta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aScenariste"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Craig_Sweeny"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aScenariste"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Robert_Doherty"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Saison1_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Saison2_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Saison3_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Saison4_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Saison5_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Saison6_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <NamedIndividual IRI="#Saison7_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Eric_Roth"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estRecurrent"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aGenre"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Thriller_Politique"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aOrigine"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Etats-Unis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Andrew_Davies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#David_Fincher"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Eric_Roth"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Michael_Dobbs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aRealisateur"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#James_Foley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aRealisateur"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Joel_Schumacher"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aScenariste"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Beau_Willimon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aScenariste"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Sarah_Treem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Jodie_Whittaker"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Jodie_Whittaker"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Jonny_Lee_Miller"/>
+        <NamedIndividual IRI="#Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Jonny_Lee_Miller"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Joël_Kinnaman"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Joël_Kinnaman"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Julie_Gardner"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#La_Méthode_Kominsky"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Mark_Hagerman"/>
+        <NamedIndividual IRI="#Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Matt_Smith"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Matt_Smith"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Michael_Dobbs"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Mike_and_Molly"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Mom"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Peter_Capaldi"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Peter_Capaldi"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Phil_Collinson"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInvite"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estRecurrent"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estRecurrent"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estActeur"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estInterprete"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Russell_T_Davies"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison11_DoctorWho"/>
+        <NamedIndividual IRI="#Jodie_Whittaker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison11_DoctorWho"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison1_DoctorWho"/>
+        <NamedIndividual IRI="#Christopher_Eccleston"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison1_DoctorWho"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison1_Elementary"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison1_House_Of_Cards"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+        <NamedIndividual IRI="#A_Study_in_Pink"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+        <NamedIndividual IRI="#The_Blind_Banker"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+        <NamedIndividual IRI="#The_Great_Game"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison1_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison1_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison2_DoctorWho"/>
+        <NamedIndividual IRI="#David_Tennant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison2_DoctorWho"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison2_House_Of_Cards"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+        <NamedIndividual IRI="#A_Scandal_in_Belgravia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+        <NamedIndividual IRI="#The_Hounds_of_Baskerville"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+        <NamedIndividual IRI="#The_Reichenbach_Fall"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison2_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison2_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison2_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#The_Sign_of_Four"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison3_House_Of_Cards"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+        <NamedIndividual IRI="#His_Last_Vow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+        <NamedIndividual IRI="#The_Empty_Hearse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+        <NamedIndividual IRI="#The_Sign_of_Three"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison3_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison3_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Dominique_McElligott"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Joël_Kinnaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+        <NamedIndividual IRI="#The_Final_Problem"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+        <NamedIndividual IRI="#The_Lying_Detective"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+        <NamedIndividual IRI="#The_Six_Thatchers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison4_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison4_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Saison4_Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#The_Final_Problem_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison5_DoctorWho"/>
+        <NamedIndividual IRI="#Matt_Smith"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison5_DoctorWho"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Dominique_McElligott"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Joël_Kinnaman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison6_House_Of_Cards"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aActeur"/>
+        <NamedIndividual IRI="#Saison8_DoctorWho"/>
+        <NamedIndividual IRI="#Peter_Capaldi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <NamedIndividual IRI="#Saison8_DoctorWho"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Santiago_Quinones"/>
+        <NamedIndividual IRI="#Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aGenre"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Policier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aOrigine"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Royaume-Uni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Sue_Vertue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aRealisateur"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Euros_Lyn"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aRealisateur"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Paul_McGuigan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aScenariste"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Mark_Gatiss"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aScenariste"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Steven_Moffat"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Sir_Arthur_Conan_Doyle_Oeuvres"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison1_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison1_Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison1_Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison2_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison2_Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison2_Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison3_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison3_Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison3_Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison4_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison4_Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison4_Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison5_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison6_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <NamedIndividual IRI="#Saison7_Elementary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aGenre"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Policier"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aOrigine"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Royaume-Uni"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Saison1_Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Saison2_Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Saison3_Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estMere"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+        <NamedIndividual IRI="#Saison4_Sherlock_Holmes_1984"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Steven_Moffat"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estProducteur"/>
+        <NamedIndividual IRI="#Sue_Vertue"/>
+        <NamedIndividual IRI="#Sherlock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#The_Big_Bang_Theory"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+        <NamedIndividual IRI="#The_Final_Problem"/>
+        <NamedIndividual IRI="#Le_dernier_probleme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+        <NamedIndividual IRI="#The_Final_Problem_1984"/>
+        <NamedIndividual IRI="#Le_dernier_probleme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+        <NamedIndividual IRI="#The_Sign_of_Four"/>
+        <NamedIndividual IRI="#Le_signe_des_quatres"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+        <NamedIndividual IRI="#The_Sign_of_Three"/>
+        <NamedIndividual IRI="#Le_signe_des_quatres"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Two_Families"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Two_and_a_Half_Men"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPersonnage"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+        <NamedIndividual IRI="#Saison4_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#estPrincipal"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+        <NamedIndividual IRI="#Saison5_House_Of_Cards"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Young_Sheldon"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aProducteur"/>
+        <NamedIndividual IRI="#Nathan&apos;s_Choice"/>
+        <NamedIndividual IRI="#Chuck_Lorre"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+        <Literal>Benedict</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Benedict_Cumberbatch"/>
+        <Literal>Cumberbatch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Bruce_Willis"/>
+        <Literal>Bruce</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Bruce_Willis"/>
+        <Literal>Willis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#appartenance"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <Literal>Democrate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <Literal>Principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <Literal>Recurrent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <Literal>Catherine</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Catherine_Durant"/>
+        <Literal>Durant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Christopher_Eccleston"/>
+        <Literal>Christopher</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Christopher_Eccleston"/>
+        <Literal>Eccleston</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#appartenance"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <Literal>Democrate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <Literal>Principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <Literal>Claire</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Claire_Underwood"/>
+        <Literal>Underwood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#David_Tennant"/>
+        <Literal>David</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#David_Tennant"/>
+        <Literal>Tennant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <Literal>Principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <Literal>DoctorWho</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#DoctorWho"/>
+        <Literal>/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#DoctorWho-2005"/>
+        <Literal>DoctorWho-2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Dominique_McElligott"/>
+        <Literal>Dominique</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Dominique_McElligott"/>
+        <Literal>McElligott</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#Elementary"/>
+        <Literal>Elementary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#appartenance"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <Literal>Democrate</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <Literal>Principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <Literal>Francis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Francis_J_Underwood"/>
+        <Literal>Underwood</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+        <Literal>Gerald</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Gerald_McRaney"/>
+        <Literal>McRaney</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#appartenance"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+        <Literal>Republicain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+        <Literal>Principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+        <Literal>Recurrent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+        <Literal>Hannah</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Hannah_Conway"/>
+        <Literal>Conway</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#House_Of_Cards"/>
+        <Literal>House Of Cards</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+        <Literal>Atkinson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Jayne_Atkinson"/>
+        <Literal>Jayne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+        <Literal>Jeremy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Jeremy_Brett"/>
+        <Literal>Brett</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Jodie_Whittaker"/>
+        <Literal>Jodie</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Jodie_Whittaker"/>
+        <Literal>Whittaker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#John_Wayne"/>
+        <Literal>John</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#John_Wayne"/>
+        <Literal>wayne</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Jonny_Lee_Miller"/>
+        <Literal>Jonny</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Jonny_Lee_Miller"/>
+        <Literal>Miller</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Joël_Kinnaman"/>
+        <Literal>Joël</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Joël_Kinnaman"/>
+        <Literal>Kinnaman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+        <Literal>Kevin</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Kevin_Spacey"/>
+        <Literal>Spacey</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Matt_Smith"/>
+        <Literal>Matt</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Matt_Smith"/>
+        <Literal>Smith</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Peter_Capaldi"/>
+        <Literal>Peter</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Peter_Capaldi"/>
+        <Literal>Capaldi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <Literal>Invite</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <Literal>Principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <Literal>Recurrent</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <Literal>Raymond</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Raymond_Tusk"/>
+        <Literal>Tusk</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+        <Literal>Roby</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Robin_Wright"/>
+        <Literal>Wright</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#Sherlock"/>
+        <Literal>Sherlock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <Literal>Principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <Literal>Sherlock</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Sherlock_Holmes"/>
+        <Literal>Holmes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <NamedIndividual IRI="#Sherlock_Holmes_1984"/>
+        <Literal>Sherlock Holmes 1984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#appartenance"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+        <Literal>Republicain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#type"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+        <Literal>Principal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+        <Literal>Will</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <NamedIndividual IRI="#Will_Conway"/>
+        <Literal>Conway</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aActeur"/>
+        <ObjectProperty IRI="#estActeur"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aAdaptation"/>
+        <ObjectProperty IRI="#estAdaptation"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aGenre"/>
+        <ObjectProperty IRI="#estGenre"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+        <ObjectProperty IRI="#estInspirationOeuvre"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aInterprete"/>
+        <ObjectProperty IRI="#estInterprete"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aInvite"/>
+        <ObjectProperty IRI="#estInvite"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aMere"/>
+        <ObjectProperty IRI="#estMere"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aOrigine"/>
+        <ObjectProperty IRI="#estOrigine"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aPersonnage"/>
+        <ObjectProperty IRI="#estPersonnage"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aPrincipal"/>
+        <ObjectProperty IRI="#estPrincipal"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aProducteur"/>
+        <ObjectProperty IRI="#estProducteur"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aRealisateur"/>
+        <ObjectProperty IRI="#estRealisateur"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aRecurrent"/>
+        <ObjectProperty IRI="#estRecurrent"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aScenariste"/>
+        <ObjectProperty IRI="#estScenariste"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#aAdaptation"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#aGenre"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#estAdaptation"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#aAdaptation"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#estAdaptation"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#estGenre"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#estInspirationOeuvre"/>
+    </InverseFunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aActeur"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aAdaptation"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aGenre"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aInterprete"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aInvite"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aOrigine"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aPersonnage"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aPrincipal"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aProducteur"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aRealisateur"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aRecurrent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#aScenariste"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estActeur"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estAdaptation"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estGenre"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estInspirationOeuvre"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estInterprete"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estInvite"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estOrigine"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estPersonnage"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estPrincipal"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estProducteur"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estRealisateur"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estRecurrent"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#estScenariste"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#aMere"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#estMere"/>
+    </TransitiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aActeur"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aAdaptation"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aGenre"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aInspirationOeuvre"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aInterprete"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aInvite"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aOrigine"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aPersonnage"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aPrincipal"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aProducteur"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aRealisateur"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aRecurrent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#aScenariste"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estActeur"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estAdaptation"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estGenre"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estInspirationOeuvre"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estInterprete"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estInvite"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estOrigine"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estPersonnage"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estPrincipal"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estProducteur"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estRealisateur"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estRecurrent"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#estScenariste"/>
+    </IrreflexiveObjectProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#appartenance"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#appartenance"/>
+        <Class IRI="#PartiPolitique"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#appartenance"/>
+        <DataOneOf>
+            <Literal>Democrate</Literal>
+            <Literal>Republicain</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#type"/>
+        <DataOneOf>
+            <Literal>Invite</Literal>
+            <Literal>Principal</Literal>
+            <Literal>Recurrent</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/firstName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/lastName"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://xmlns.com/foaf/0.1/name"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#A_Scandal_in_Belgravia</IRI>
+        <Literal>Un épisode de la saison 2 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#A_Study_in_Pink</IRI>
+        <Literal>Un épisode de la saison 1 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Acteur</IRI>
+        <Literal>Ceci est une classe qui contient les acteurs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActeurPolicier</IRI>
+        <Literal>Ceci est une classe d&apos;acteurs qui jouent dans une série de policier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActeurSF</IRI>
+        <Literal>Ceci est une classe d&apos;acteurs qui jouent dans une série de Science-Fiction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ActeurThrillerPolitique</IRI>
+        <Literal>Ceci est une classe d&apos;acteurs qui jouent dans une série de Thriller Politique</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Andrew_Davies</IRI>
+        <Literal>Producteur de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Beau_Willimon</IRI>
+        <Literal>Scénariste de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Benedict_Cumberbatch</IRI>
+        <Literal>Acteur qui joue dans la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bruce_Willis</IRI>
+        <Literal>Un acteur. Cet individu a été ajouté pour tester la requête SPARQL 9.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Catherine_Durant</IRI>
+        <Literal>Personnage qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chris_Chibnall</IRI>
+        <Literal>Producteur de la série DoctorWho à partir de 2005.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Christopher_Eccleston</IRI>
+        <Literal>Acteur qui joue dans DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chuck_Lorre</IRI>
+        <Literal>Producteur des séries Disjointed, Two and a Half Men, Young Sheldon, The Big Bang Theory, Two Families, La Méthode Kominsky, Mom, Nathan&apos;s Choice et Mike and Molly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Claire_Underwood</IRI>
+        <Literal>Personnage qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Craig_Sweeny</IRI>
+        <Literal>Scénariste de la série Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#David_Chambers</IRI>
+        <Literal>Producteur de la série Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#David_Fincher</IRI>
+        <Literal>Producteur de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#David_Tennant</IRI>
+        <Literal>Acteur qui joue dans DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Democrate</IRI>
+        <Literal>Ceci est une classe qui contiendra toutes les personnes qui appartiennent au parti politique Démocrate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Disjointed</IRI>
+        <Literal>La série Disjointed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DoctorWho</IRI>
+        <Literal>Personnage qui joue dans DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DoctorWho-2005</IRI>
+        <Literal>La série DoctorWho à partir de 2005.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dominique_McElligott</IRI>
+        <Literal>Acteur qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Elementary</IRI>
+        <Literal>La série Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Episode</IRI>
+        <Literal>Ceci est une classe qui contient les épisodes de saisons et de séries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Eric_Roth</IRI>
+        <Literal>Producteur de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Etats-Unis</IRI>
+        <Literal>Etats-Unis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Euros_Lyn</IRI>
+        <Literal>Réalisatrice de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Francis_J_Underwood</IRI>
+        <Literal>Personnage qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Genre</IRI>
+        <Literal>Ceci est une classe qui décrit le genre d&apos;une série, d&apos;une oeuvre et d&apos;une histoire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Gerald_McRaney</IRI>
+        <Literal>Acteur qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hannah_Conway</IRI>
+        <Literal>Personnage qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#His_Last_Vow</IRI>
+        <Literal>Un épisode de la saison 3 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Histoire</IRI>
+        <Literal>Ceci est une classe qui contient des histoires qui peuvent être décrites dans un livre, une oeuvre etc...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#House_Of_Cards</IRI>
+        <Literal>La série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#James_Foley</IRI>
+        <Literal>Réalisateur de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jason_Tracey</IRI>
+        <Literal>Réalisateur de la série Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jayne_Atkinson</IRI>
+        <Literal>Acteur qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jeremy_Brett</IRI>
+        <Literal>Acteur qui joue dans Sherlock Holmes de 1984.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jodie_Whittaker</IRI>
+        <Literal>Acteur qui joue dans DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Joel_Schumacher</IRI>
+        <Literal>Réalisateur de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#John_Wayne</IRI>
+        <Literal>Un acteur. Cet individu a été ajouté pour tester la requête SPARQL 9.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Jonny_Lee_Miller</IRI>
+        <Literal>Acteur qui joue dans Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Joël_Kinnaman</IRI>
+        <Literal>Acteur qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Julie_Gardner</IRI>
+        <Literal>Productrice de la série DoctorWho à partir de 2005.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Kevin_Spacey</IRI>
+        <Literal>Acteur qui joue dans House Of Cards et aussi producteur.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#La_Méthode_Kominsky</IRI>
+        <Literal>La série La Méthode Kominsky.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Le_dernier_probleme</IRI>
+        <Literal>Une oeuvre littéraire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Le_signe_des_quatres</IRI>
+        <Literal>Une oeuvre littéraire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mark_Gatiss</IRI>
+        <Literal>Scénariste de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mark_Hagerman</IRI>
+        <Literal>Producteur de la série Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Matt_Smith</IRI>
+        <Literal>Acteur qui joue dans DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Michael_Cuesta</IRI>
+        <Literal>Réalisateur de la série Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Michael_Dobbs</IRI>
+        <Literal>Producteur de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mike_and_Molly</IRI>
+        <Literal>La série Mike and Molly.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mom</IRI>
+        <Literal>La série Mom.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OeuvreLitteraire</IRI>
+        <Literal>Ceci est une classe qui contient un ensemble de livres, de nouvelles etc...</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OeuvreTelevisuelle</IRI>
+        <Literal>Ceci est une classe qui contient un ensemble de films.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PartiPolitique</IRI>
+        <Literal>Ceci est une classe qui contient les partis politiques de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Paul_McGuigan</IRI>
+        <Literal>Réalisateur de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pays</IRI>
+        <Literal>Ceci est une classe qui inclue différents pays.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Personnage</IRI>
+        <Literal>Ceci est une classe qui contient les personnages de séries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PersonnageInspireLitterature</IRI>
+        <Literal>Ceci est une classe de personnages de série qui sont issus d&apos;une oeuvre littéraire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PersonnageInvite</IRI>
+        <Literal>Ceci est une classe de personnages qui a comme type invité.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PersonnagePrincipal</IRI>
+        <Literal>Ceci est une classe de personnages qui a comme type principal.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PersonnageRecurrent</IRI>
+        <Literal>Ceci est une classe de personnages qui a comme type recurrent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PersonnageTousTypes</IRI>
+        <Literal>Ceci est une classe de personnages qui a été à des moments différents dans sa série principal, récurrent et invité.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Peter_Capaldi</IRI>
+        <Literal>Acteur qui joue dans DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Phil_Collinson</IRI>
+        <Literal>Producteur de la série DoctorWho à partir de 2005.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Policier</IRI>
+        <Literal>Genre policier.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Producteur</IRI>
+        <Literal>Ceci est une classe qui contient les producteurs de séries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ProducteurProlifique</IRI>
+        <Literal>Ceci est une classe de producteurs qui ont produit au moins 8 séries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Raymond_Tusk</IRI>
+        <Literal>Personnage qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Realisateur</IRI>
+        <Literal>Ceci est une classe qui contient les réalisteurs de séries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Republicain</IRI>
+        <Literal>Ceci est une classe qui contiendra toutes les personnes qui appartiennent au parti politique Républicain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Robert_Doherty</IRI>
+        <Literal>Scénariste de la série Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Robin_Wright</IRI>
+        <Literal>Acteur qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Royaume-Uni</IRI>
+        <Literal>Royaume-Unis.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Russell_T_Davies</IRI>
+        <Literal>Producteur de la série DoctorWho à partir de 2005.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison</IRI>
+        <Literal>Ceci est une classe qui contient les saisons de séries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison10_DoctorWho</IRI>
+        <Literal>La saison 10 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison11_DoctorWho</IRI>
+        <Literal>La saison 11 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison12_DoctorWho</IRI>
+        <Literal>La saison 12 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison1_DoctorWho</IRI>
+        <Literal>La saison 1 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison1_Elementary</IRI>
+        <Literal>La saison 1 de Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison1_House_Of_Cards</IRI>
+        <Literal>La saison 1 de House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison1_Sherlock</IRI>
+        <Literal>La saison 1 de Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison1_Sherlock_Holmes_1984</IRI>
+        <Literal>La saison 1 de Sherlock Holmes 1984.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison2_DoctorWho</IRI>
+        <Literal>La saison 2 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison2_Elementary</IRI>
+        <Literal>La saison 2 de Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison2_House_Of_Cards</IRI>
+        <Literal>La saison 2 de House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison2_Sherlock</IRI>
+        <Literal>La saison 2 de Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison2_Sherlock_Holmes_1984</IRI>
+        <Literal>La saison 2 de Sherlock Holmes 1984.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison3_DoctorWho</IRI>
+        <Literal>La saison 3 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison3_Elementary</IRI>
+        <Literal>La saison 3 de Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison3_House_Of_Cards</IRI>
+        <Literal>La saison 3 de House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison3_Sherlock</IRI>
+        <Literal>La saison 3 de Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison3_Sherlock_Holmes_1984</IRI>
+        <Literal>La saison 3 de Sherlock Holmes 1984.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison4_DoctorWho</IRI>
+        <Literal>La saison 4 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison4_Elementary</IRI>
+        <Literal>La saison 4 de Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison4_House_Of_Cards</IRI>
+        <Literal>La saison 4 de House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison4_Sherlock</IRI>
+        <Literal>La saison 4 de Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison4_Sherlock_Holmes_1984</IRI>
+        <Literal>La saison 4 de Sherlock Holmes 1984.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison5_DoctorWho</IRI>
+        <Literal>La saison 5 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison5_Elementary</IRI>
+        <Literal>La saison 5 de Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison5_House_Of_Cards</IRI>
+        <Literal>La saison 5 de House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison6_DoctorWho</IRI>
+        <Literal>La saison 6 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison6_Elementary</IRI>
+        <Literal>La saison 6 de Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison6_House_Of_Cards</IRI>
+        <Literal>La saison 6 de House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison7_DoctorWho</IRI>
+        <Literal>La saison 7 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison7_Elementary</IRI>
+        <Literal>La saison 7 de Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison8_DoctorWho</IRI>
+        <Literal>La saison 8 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Saison9_DoctorWho</IRI>
+        <Literal>La saison 9 de DoctorWho.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Santiago_Quinones</IRI>
+        <Literal>Producteur de la série Elementary.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sarah_Treem</IRI>
+        <Literal>Scénariste de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Scenariste</IRI>
+        <Literal>Ceci est une classe qui contient les scénaristes de séries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Science-Fiction</IRI>
+        <Literal>Le genre Science-Fiction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Serie</IRI>
+        <Literal>Ceci est une classe qui contient les séries.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SerieAnglaise</IRI>
+        <Literal>Ceci est une classe qui contient des séries anglaises qui ont comme origine uniquement le Royaume-Uni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SerieNonAnglaise</IRI>
+        <Literal>Ceci est une classe qui contient des séries non anglaises qui ont comme origine n&apos;imoprte quel pays sauf le Royaume-Uni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SeriePoliciere</IRI>
+        <Literal>Ceci est une classe qui contient des séries qui ont comme genre uniquement Policier.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SerieSF</IRI>
+        <Literal>Ceci est une classe qui contient des séries de Science-Fiction.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SerieThrillerPolitique</IRI>
+        <Literal>Ceci est une classe qui contient des séries qui ont comme genre uniquement Thriller Politique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sherlock</IRI>
+        <Literal>La série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sherlock_Holmes</IRI>
+        <Literal>Personnage qui joue dans Sherlock, Elementary et Sherlock Holmes 1984.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sherlock_Holmes_1984</IRI>
+        <Literal>La série Sherlock Holmes 1984.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sir_Arthur_Conan_Doyle_Oeuvres</IRI>
+        <Literal>Les oeuvres de Sir Arthur Conan Doyle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Steven_Moffat</IRI>
+        <Literal>Producteur de la série DoctorWho à partir de 2005.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sue_Vertue</IRI>
+        <Literal>Productrice de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Big_Bang_Theory</IRI>
+        <Literal>La série The Big Bang Theory.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Blind_Banker</IRI>
+        <Literal>Un épisode de la saison 1 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Empty_Hearse</IRI>
+        <Literal>Un épisode de la saison 3 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Final_Problem</IRI>
+        <Literal>Un épisode de la saison 4 de la série Sherlock et inspiré de l&apos;oeuvre &quot;Le dernier problème&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Final_Problem_1984</IRI>
+        <Literal>Un épisode de la saison 4 de la série Sherlock Holmes 1984 et inspiré de l&apos;oeuvre &quot;Le dernier problème&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Great_Game</IRI>
+        <Literal>Un épisode de la saison 1 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Hounds_of_Baskerville</IRI>
+        <Literal>Un épisode de la saison 2 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Lying_Detective</IRI>
+        <Literal>Un épisode de la saison 4 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Reichenbach_Fall</IRI>
+        <Literal>Un épisode de la saison 2 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Sign_of_Four</IRI>
+        <Literal>Un épisode de la saison 2 de la série Sherlock Holmes 1984 et inspiré de l&apos;oeuvre &quot;Le signe des quatres&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Sign_of_Three</IRI>
+        <Literal>Un épisode de la saison 3 de la série Sherlock et inspiré de l&apos;oeuvre &quot;Le signe des quatres&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#The_Six_Thatchers</IRI>
+        <Literal>Un épisode de la saison 4 de la série Sherlock.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Thriller_Politique</IRI>
+        <Literal>Le genre Thriller Politique.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Two_Families</IRI>
+        <Literal>La série Two Families.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Two_and_a_Half_Men</IRI>
+        <Literal>La série Two and a half men.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Will_Conway</IRI>
+        <Literal>Personnage qui joue dans House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Young_Sheldon</IRI>
+        <Literal>La série Young Sheldon.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aActeur</IRI>
+        <Literal>aActeur: L&apos;inverse de estActeur.
+
+Exemple: Une ou des série(s) a/ont comme acteur un ou des acteur(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aAdaptation</IRI>
+        <Literal>aAdaptation: L&apos;inverse de estAdaptation. 
+
+Exemple: Une histoire a une adaptation dans un épisode.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aGenre</IRI>
+        <Literal>aGenre: L&apos;inverse de estGenre.
+
+Exemple: Une oeuvre littéraire et une oeuvre télévisuelle ont exactement un genre.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aInspirationOeuvre</IRI>
+        <Literal>aInspirationOeuvre: L&apos;inverse de estInspirationOeuvre.
+
+Exemple: Les (personnages des) séries et les épisodes sont éventuellement inspirés d&apos;une oeuvre littéraire.
+               PersonnageInspireLitteraire, personnages de série qui sont issus d&apos;une oeuvre littéraire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aInterprete</IRI>
+        <Literal>aInterprete: L&apos;inverse de estInterprete.
+
+Exemple: Un ou des personnage(s) a/ont comme personnage un ou des acteur(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aMere</IRI>
+        <Literal>aMere: L&apos;inverse de estMère.
+
+Exemple: Une ou des série(s) est/sont fille(s) d&apos;une ou de saison(s).
+               Une ou des saison(s) est/sont fille(s) d&apos;une série.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aOrigine</IRI>
+        <Literal>aOrigine: L&apos;inverse de estOrigine.
+
+Exemple: Une série a comme origine un ou des pays.
+               Une série anglaise a comme origine Royaume-Uni.
+               Une série non anglaise a comme origine un ou des pays mais non le Royaume-Uni.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aPersonnage</IRI>
+        <Literal>aPersonnage: L&apos;inverse de estPersonnage.
+
+Exemple: Une ou des série(s) a/ont comme personnage un ou des personnage(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aProducteur</IRI>
+        <Literal>aProducteur: L&apos;inverse de estProducteur. 
+
+Exemple: Une ou des séries() a/ont comme producteur un ou des producteur(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aRealisateur</IRI>
+        <Literal>aRéalisteur: L&apos;inverse de estRéalisateur.
+
+Exemple: Une ou des série(s) a/ont comme réalisateur un ou des réalisateur(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#aScenariste</IRI>
+        <Literal>aScénariste: L&apos;inverse de estScénariste.
+
+Exemple: Une ou des série(s) a/ont comme scénariste un ou des scénariste(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#appartenance</IRI>
+        <Literal>Une data propriété qui désigne un personnage de la série House Of Cards à une appartenance à un parti politique soit république soit démocrate.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estActeur</IRI>
+        <Literal>estActeur: L&apos;inverse de aActeur.
+
+Exemple: Un ou des acteur(s) est/sont acteur(s) d&apos;une ou de série(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estAdaptation</IRI>
+        <Literal>estAdaptation: L&apos;inverse de aAdaptation.
+
+Exemple: Un épisode est une adaptation d&apos;une histoire.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estGenre</IRI>
+        <Literal>estGenre: L&apos;inverse de aGenre.
+
+Exemple: Thriller politique est genre de la série House Of Cards.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estInspirationOeuvre</IRI>
+        <Literal>estInspiration: L&apos;inverse de aInspirationOeuvre.
+
+Exemple: Une oeuvre littéraire est une inspiration d&apos;un ou des épisodes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estInterprete</IRI>
+        <Literal>estInterprète: L&apos;inverse de aInterprète.
+
+Exemple: Un ou des acteur(s) est/sont un/des interprète(s) d&apos;un ou de personnage(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estMere</IRI>
+        <Literal>estMere: L&apos;inverse de aMere.
+
+Exemple: Une saison est mère d&apos;un ou d&apos;épisode(s).
+               Une série est mère d&apos;une ou de saison(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estOrigine</IRI>
+        <Literal>estOrigine: L&apos;inverse de aOrigine.
+
+Exemple: Un ou des pays est/sont origine(s) d&apos;une ou de série(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estPersonnage</IRI>
+        <Literal>estPersonnage: L&apos;inverse de aPersonnage.
+
+Exemple: Un ou des personnage(s) est/sont un/des personnage(s) dans une ou des série(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estProducteur</IRI>
+        <Literal>estProducteur: L&apos;inverse de aProducteur.
+
+Exemple: Un ou des producteur(s) est/sont un/des producteur(s) d&apos;une ou de série(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estRealisateur</IRI>
+        <Literal>estRéalisteur: L&apos;inverse de aRéalisateur.
+
+Exemple: Un ou des réalisateur(s) est/sont un/des réalisateur(s) d&apos;une ou de série(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#estScenariste</IRI>
+        <Literal>estScenariste: L&apos;inverse de aScenariste.
+
+Exemple: Un ou des scénariste(s) est/sont scénariste(s) d&apos;une ou de série(s).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#type</IRI>
+        <Literal>Ceci est une data propriété qui indique le type qu&apos;un personnage peut avoir dans la série. Le personnage doit avoir minimum 1 type et au plus 3 types.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Nathan&apos;s_Choice</IRI>
+        <Literal>La série Nathan&apos;s Choice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/Agent</IRI>
+        <Literal>An agent (eg. person, group, software or physical artifact).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://xmlns.com/foaf/0.1/Agent</IRI>
+        <Literal>Agent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://xmlns.com/foaf/0.1/Agent</IRI>
+        <Literal>stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/Document</IRI>
+        <Literal>A document.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://xmlns.com/foaf/0.1/Document</IRI>
+        <IRI>http://xmlns.com/foaf/0.1/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://xmlns.com/foaf/0.1/Document</IRI>
+        <Literal>Document</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://xmlns.com/foaf/0.1/Document</IRI>
+        <Literal>stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/Group</IRI>
+        <Literal>A class of Agents.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://xmlns.com/foaf/0.1/Group</IRI>
+        <Literal>Group</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://xmlns.com/foaf/0.1/Group</IRI>
+        <Literal>stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/Person</IRI>
+        <Literal>A person.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://xmlns.com/foaf/0.1/Person</IRI>
+        <IRI>http://xmlns.com/foaf/0.1/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://xmlns.com/foaf/0.1/Person</IRI>
+        <Literal>Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://xmlns.com/foaf/0.1/Person</IRI>
+        <Literal>stable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/Project</IRI>
+        <Literal>A project (a collective endeavour of some kind).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>http://xmlns.com/foaf/0.1/Project</IRI>
+        <IRI>http://xmlns.com/foaf/0.1/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://xmlns.com/foaf/0.1/Project</IRI>
+        <Literal>Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+        <IRI>http://xmlns.com/foaf/0.1/Project</IRI>
+        <Literal>testing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/firstName</IRI>
+        <Literal>Ceci est une data propriété (littéral) venant de FOAF qui représente le prénom.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/lastName</IRI>
+        <Literal>Ceci est une data propriété (littéral) venant de FOAF qui représente le nom.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://xmlns.com/foaf/0.1/name</IRI>
+        <Literal>Ceci est une data propriété (littéral) venant de FOAF qui représente ici dans notre ontolgie les titres des séries.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
